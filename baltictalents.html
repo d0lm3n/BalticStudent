@@ -1,0 +1,114 @@
+<!-- Uzdavinys 1.
+    UŽDAVINYS 1
+■ Sukurkite puslapį su lentele
+– 1 eilutė: tekstas „Pavadinimas“ (per du stulpelius), „Veiksmas“;
+– 2 eilutė: tekstas „Vaisiai“ per tris stulpelius;
+– 3 eilutė: tekstas „Obuolys“ pirmame stulpelyje, jo paveiksliukas antrame ir
+mygtukas „Pirkti“ trečiame;
+– 4 eilutė: tekstas „Apelsinas“ pirmame, jo paveiksliukas antrame ir mygtukas
+„Parduoti“ trečiame
+– 5 eilutė: tekstas „Daržovės“ per tris stulpelius
+– 6 eilutė: tekstas „Morka“ pirmame, jos paveiksliukas antrame ir mygtukas
+trečiame;
+– Ir t.t.
+■ Pastaba: paveiksliukus imkite tiesiai iš interneto (dėkite nuorodas)
+
+■ Sukurkite bent 10 eilučių
+-->
+<!DOCTYPE>
+<html>
+<head>
+        <meta charset="UTF-8">
+    <title> Lukas Narbutas PHP 1 learn</title>
+    <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                
+            }
+            th {
+                padding: 5px;
+                text-align: center;    
+                background-color: #0000FF
+            }
+            td {
+                background-color: #72FF33
+            }
+           
+            </style>
+            </head>
+            <body>
+            
+              <table style="width:100%">
+              <tr>
+                <th><p style="color:#FFFFFF">Pavadinimas</th></p>
+                <th colspan="2"><p style="color:#FFFFFF">Veiksmas</th></p>
+              </tr>
+              <p>
+              <tr>
+                <td align='center'><b><p style="color: #B4B4B1">Vaisiai</b></p></td>
+              </tr>
+              <tr>
+                    <td><p style="color: #B4B4B1">Obuolys</p></td>
+                <td><a href="#"><img class="foto" alt="Foto" width="50" height="50" src="http://www.clker.com/cliparts/1/I/W/5/t/G/red-apple-1-md.png"></a></td>
+                <td align='center'><form><input type=submit value="Pirkti"></form></td>
+              </tr>
+              <tr>
+                    <td><p style="color: #B4B4B1">Apelsinas</p></td>
+                    <td><a href="#"><img class="foto" alt="Foto" width="50" height="50" src="http://www.segroup.lt/images/uploader/or/180x180.c/orange_istock_000001331357x_540x405-1.jpg"></a></td>
+                    <td align='center'><form><input type=submit value="Parduoti"></form></td>
+                  </tr>
+                  <tr>
+                        <td><p style="color: #B4B4B1">Kriaušė</p></td>
+                        <td><a href="#"><img class="foto" alt="Foto" width="50" height="50" src="https://img.purch.com/h/1000/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzA2NS8xNDkvb3JpZ2luYWwvYmFuYW5hcy5qcGc="></a></td>
+                        <td align='center'><form><input type=submit value="Pirkti"></form></td>
+                      </tr>
+                      <td align='center'><p style="color: #B4B4B1"><b>Daržovė</p></td></b>
+              </tr>
+              <tr>
+                    <td><p style="color: #B4B4B1">Morka</p></td>
+                <td><a href="#"><img class="foto" alt="Foto" width="50" height="50" src="http://www.segroup.lt/images/uploader/ca/180x180.c/carrot-1.jpg"></a></td>
+                <td align='center'><form><input type=submit value="Pirkti"></form></td>
+              </tr>
+              <tr>
+                    <td><p style="color: #B4B4B1">Bulvė</p></td>
+                    <td><a href="#"><img class="foto" alt="Foto" width="50" height="50" src="http://www.ve.lt/uploads/img/catalog/1/1578/981/ar-bulve-gali-buti-sveikos-mitybos-dalis-.jpg"></a></td>
+                    <td align='center'><form><input type=submit value="Pirkti"></form></td>
+                  </tr>
+                  <tr>
+                        <td><p style="color: #B4B4B1">Kopūstas</p></td>
+                        <td><a href="#"><img class="foto" alt="Foto" width="50" height="50" src="https://sveika.lt/wp-content/uploads/2013/03/kopustas.jpg"></a></td>
+                        <td align='center'><form><input type=submit value="Pirkti"></form></td>
+                      </tr>
+                      <td align='center'><p style="color: #B4B4B1"><b>Telefonai</p></td></b>
+              </tr>
+              <tr>
+                    <td><p style="color: #B4B4B1">Iphone 8</p></td>
+                <td><a href="#"><img class="foto" alt="Foto" width="50" height="50" src="https://store.storeimages.cdn-apple.com/4974/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone8/plus/iphone8-plus-spgray-select-2017?wid=1200&hei=630&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=1504041012436"></a></td>
+                <td align='center'><form><input type=submit value="Pirkti"></form></td>
+              </tr>
+              <tr>
+                    <td><p style="color: #B4B4B1">Iphone X</p></td>
+                    <td><a href="#"><img class="foto" alt="Foto" width="50" height="50" src="https://www.att.com/catalog/en/skus/images/apple-iphone%20x-space%20gray-450x350.png"></a></td>
+                    <td align='center'><form><input type=submit value="Pirkti"></form></td>
+                  </tr>
+                  <tr>
+                        <td><p style="color: #B4B4B1">Iphone 6s</p></td>
+                        <td><a href="#"><img class="foto" alt="Foto" width="50" height="50" src="https://www.myistore.co.za/media/catalog/product/cache/1/base/1600x/17f82f742ffe127f42dca9de82fb58b1/i/p/iphone_6splus_pure_angles_s.png"></a></td>
+                        <td align='center'><form><input type=submit value="Pirkti"></form></td>
+                      </tr>
+                    </p>
+            </table>
+            
+            </body>
+
+<!-- 
+UŽDAVINYS 2
+■ Panaudokite jūsų sukurtą lentelę ir ją stilizuokite
+– Antraštė (pirma lentelės eilutė) turi būti tamsiai
+mėlynam fone baltos raidės
+– Kitos eilutės – šviesiai žaliame fone pilkos raidės
+-->
+
+
+
